@@ -1,0 +1,1 @@
+const tooltipTriggerList=[...document.querySelectorAll('[data-bs-toggle="tooltip"]')],tooltipList=tooltipTriggerList.map(a=>new bootstrap.Tooltip(a)),popoverTriggerList=[...document.querySelectorAll('[data-bs-toggle="popover"]')],popoverList=popoverTriggerList.map(a=>new bootstrap.Popover(a))
